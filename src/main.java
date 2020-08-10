@@ -1,17 +1,17 @@
 public class main {
     public static void main(String[] args) {
-        int sum = 0;
+        int sum = 1;
         int  [][]  array =new int[10][15];
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 15 ; j++) {
+        for (int i = 1; i < 10; i++) {
+            for (int j = 1; j < 15 ; j++) {
                 array[i][j]= j;
-                sum=sum+array[i][j];
+                sum=sum*array[i][j];
                 System.out.print(array[i][j] +" ");
             }
             System.out.println();
             System.out.println("the sum of each individual array is " + sum);
 
- sum=0;
+ sum=1;
             }
         for (int i = 0; i < 10; i++) {
 
